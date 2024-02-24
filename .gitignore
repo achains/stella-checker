@@ -42,6 +42,13 @@ install
 # IDE
 .idea
 
+# ANTLR generated sources
+libs/antlr/**
+
+# Conan
+CMakeUserPresets.json
+conan_provider.cmake
+
 # Build dir
 cmake-build-debug
 cmake-build-release
